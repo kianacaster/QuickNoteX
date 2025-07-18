@@ -13,24 +13,24 @@ window {
 }
 
 inputbar {
-  enabled: false; /* No input bar for the display window */
+  enabled: false;
 }
 
 prompt {
-  enabled: false; /* No prompt for the display window */
+  enabled: false;
 }
 
 entry {
-  enabled: false; /* No entry field for the display window */
+  enabled: false;
 }
 
 listview {
-  enabled: true; /* IMPORTANT: Enable the listview for displaying notes */
+  enabled: true;
   columns: 1;
-  lines: 10; /* Display up to 10 lines at once */
+  lines: 10;
   spacing: 5px;
   cycle: true;
-  scrollbar: true; /* Enable scrollbar if notes exceed lines */
+  scrollbar: true;
   layout: vertical;
   background-color: @background-color;
 }
@@ -43,7 +43,7 @@ element {
 }
 
 element selected {
-  background-color: #61afef; /* Highlight color for selected item */
+  background-color: #61afef;
   text-color: #ffffff;
 }
 

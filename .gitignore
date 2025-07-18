@@ -1,0 +1,6 @@
+# Build artifacts
+pkg/
+src/
+*.pkg.tar.zst
+*.tar.gz
+notes.txt # This is a data file, not source code

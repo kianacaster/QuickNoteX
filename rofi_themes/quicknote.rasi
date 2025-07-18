@@ -11,9 +11,8 @@ window {
   transparency: "real";
   border-radius: 10px;
 
-  /* Animation properties */
   transform: [ "move", "fade" ];
-  transition: [ "all 0.8s ease-out" ]; /* Changed duration to 0.8s for slower animation */
+  transition: [ "all 0.8s ease-out" ];
 }
 
 inputbar {
