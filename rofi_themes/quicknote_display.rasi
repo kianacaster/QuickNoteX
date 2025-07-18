@@ -1,0 +1,53 @@
+* {
+  background-color: #282c34;
+  foreground-color: #abb2bf;
+  font: "sans-serif 12";
+}
+
+window {
+  background-color: @background-color;
+  border: 0px;
+  padding: 10px;
+  transparency: "real";
+  border-radius: 10px;
+}
+
+inputbar {
+  enabled: false; /* No input bar for the display window */
+}
+
+prompt {
+  enabled: false; /* No prompt for the display window */
+}
+
+entry {
+  enabled: false; /* No entry field for the display window */
+}
+
+listview {
+  enabled: true; /* IMPORTANT: Enable the listview for displaying notes */
+  columns: 1;
+  lines: 10; /* Display up to 10 lines at once */
+  spacing: 5px;
+  cycle: true;
+  scrollbar: true; /* Enable scrollbar if notes exceed lines */
+  layout: vertical;
+  background-color: @background-color;
+}
+
+element {
+  padding: 5px;
+  background-color: @background-color;
+  text-color: @foreground-color;
+  border-radius: 5px;
+}
+
+element selected {
+  background-color: #61afef; /* Highlight color for selected item */
+  text-color: #ffffff;
+}
+
+element-text {
+  background-color: inherit;
+  text-color: inherit;
+}

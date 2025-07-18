@@ -1,0 +1,40 @@
+* {
+  background-color: #282c34;
+  foreground-color: #abb2bf;
+  font: "sans-serif 12";
+}
+
+window {
+  background-color: @background-color;
+  border: 0px;
+  padding: 10px;
+  transparency: "real";
+  border-radius: 10px;
+
+  /* Animation properties */
+  transform: [ "move", "fade" ];
+  transition: [ "all 0.8s ease-out" ]; /* Changed duration to 0.8s for slower animation */
+}
+
+inputbar {
+  children: [ prompt, entry ];
+  background-color: @background-color;
+  border: 0px;
+  padding: 5px;
+}
+
+prompt {
+  enabled: true;
+  padding: 0px 5px 0px 0px;
+  background-color: @background-color;
+  text-color: @foreground-color;
+}
+
+entry {
+  background-color: @background-color;
+  text-color: @foreground-color;
+}
+
+listview {
+  enabled: false;
+}
