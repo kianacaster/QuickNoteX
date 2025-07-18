@@ -1,4 +1,8 @@
 #!/bin/bash
+# Copyright (c) 2025 Kian Acaster. All rights reserved.
+#
+# This software is licensed under the MIT License.
+# See LICENSE for more information.
 
 INPUT=$(/usr/bin/rofi -dmenu -theme /usr/share/rofi/themes/quicknote.rasi -width 100 -lines 1 -location 0 -yoffset -200 -p "QuickNoteX")
 

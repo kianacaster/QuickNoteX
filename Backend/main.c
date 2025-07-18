@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) 2025 Kian Acaster. All rights reserved.
+ *
+ * This software is licensed under the MIT License.
+ * See LICENSE for more information.
+ */
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>

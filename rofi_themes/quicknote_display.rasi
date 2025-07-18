@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) 2025 Kian Acaster. All rights reserved.
+ *
+ * This software is licensed under the MIT License.
+ * See LICENSE for more information.
+ */
+
 * {
   background-color: #282c34;
   foreground-color: #abb2bf;
