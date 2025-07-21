@@ -10,11 +10,12 @@
 #include <stdlib.h>
 
 #define MAX_NOTE_LENGTH 1024
-#define NOTES_FILE "notes.txt"
+#define NOTES_FILE "../notes.txt"
 
 void open_notes() {
     FILE *file = fopen(NOTES_FILE, "r");
     if (file == NULL) {
+        perror("Error opening notes.txt");
         return;
     }
     char ch;
